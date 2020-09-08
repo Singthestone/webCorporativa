@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <!-- SEO = Básico -->
     <title></title>
@@ -25,54 +26,67 @@
     <link rel="stylesheet" href="css/index.css" />
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- *** ESTRUCTURA SEMÁNTICA *** -->
     <!-- Header (encabezado de la página, zona superior) -->
     <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <!-- logotipo, por ahora en texto -->
-        <h1>Logo</h1>
-        <a href="#" class="link1">Quienes Somos?</a>
-        <a href="#" class="link2">Servicios</a>
-        <a href="#" class="link3">Contactar</a>
-        <a href="#" class="link4">Blog</a>
-      </nav>
-      <section class="banner">
-        <!-- Slogan del banner -->
-        <h3>Quienes Somos?</h3>
-      </section>
+        <!-- nav (el navegador de toda la web) -->
+        <nav>
+            <!-- logotipo, por ahora en texto -->
+            <img src="img/icon/logowhite.png" class="logo" alt="whitelogo">
+            <a href="#" class="link1">Quienes Somos?</a>
+            <a href="#" class="link2">Servicios</a>
+            <a href="#" class="link3">Contactar</a>
+            <a href="#" class="link4">Blog</a>
+        </nav>
+        <section class="banner">
+            <!-- Slogan del banner -->
+            <h3 class="titulo">Página de Inicio</h3>
+        </section>
     </header>
-    <!-- Main (centro de la página, zona central) -->
+
     <main>
-      <!-- section y article (posibilidades dentro de main) -->
     </main>
-    <!-- Footer (final de la página, zona inferior) -->
+
     <footer>
-      <section class="contenido">
-        <ul class="contactar">
-          <li>666 666 666</li>
-          <li>info@emaildeempresa.com</li>
-        </ul>
-        <ul class="redes">
-          <li>Redes Sociales</li>
-          <li></li>
-          <li><h6>&copy;Copyright 2020 - Toni Ferrà</h6></li>
-        </ul>
-        <ul class="suscribete">
-          <li>Suscríbete</li>
-          <li>
-            <form action="">
-              <input type="text" />
-              <button>Enviar</button>
-            </form>
-          </li>
-        </ul>
-      </section>
+        <section class="contenido">
+            <ul class="contactar">
+                <li>666 666 666</li>
+                <li>info@emaildeempresa.com</li>
+            </ul>
+            <ul class="redes">
+                <li>Redes Sociales</li>
+                <li></li>
+                <li>
+                    <h6>&copy;Copyright - Carlos Cantalapiedra</h6>
+                </li>
+            </ul>
+            <ul class="suscribete">
+                <li>Suscríbete</li>
+                <li>
+
+                    <!-- Formulario -->
+                    <form>
+                        <ul>
+
+                            <li>
+                                <label for="">Email</label>
+                                <input type="email" name="email" placeholder="email@mail.com" required>
+                                <button type="submit"> Enviar </button>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </form>
+                </li>
+            </ul>
+        </section>
     </footer>
 
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+</body>
+
 </html>

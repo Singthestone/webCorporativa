@@ -1,48 +1,68 @@
 /* *********************************** */
+
+
 /* *** ESTILOS GENERALES *** */
+
+
 /* *********************************** */
 
+
 /* Tipografía */
+
 @font-face {
     font-family: "";
-    src: url("") format("woof2"),
-         url("") format("woof");
+    src: url("") format("woof2"), url("") format("woof");
 }
+
 
 /* ******************************** */
 
+
 /* Colores */
 
+
 /* Tipografia */
-html{
-    font-family: sans-serif;
+
+html {
+    font-family: Helvetica, sans-serif;
 }
 
+
 /* margenes */
-body{
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-ul{
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+ul {
     list-style: none;
 }
 
+
 /* ******************************** */
 
+
 /* HEADER */
-header{
+
+header {
     width: 100%;
     height: 800px;
-    background-image: url(https://images.unsplash.com/photo-1597949418224-d2730485d9ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-image: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: stretch;
 }
 
-nav{
+nav {
     width: 100%;
     max-width: 1440px;
     padding: 0 2rem;
@@ -50,14 +70,16 @@ nav{
     display: flex;
     align-items: center;
 }
-nav h1{
+
+nav h1 {
     flex-grow: 1;
 }
-nav a{
+
+nav a {
     margin: 0 0 0 2rem;
 }
 
-.banner{
+.banner {
     width: 100%;
     max-width: 1440px;
     height: 100%;
@@ -66,17 +88,18 @@ nav a{
     padding-left: 20%;
     box-sizing: border-box;
 }
-.banner h3{
+
+.banner h3 {
     font-size: 50px;
 }
 
 
-
-
 /* FOOTER */
-footer{
+
+footer {
     width: 100%;
 }
+
 footer .contenido {
     width: 100%;
     max-width: 1440px;
