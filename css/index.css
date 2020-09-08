@@ -1,7 +1,19 @@
+header {
+    padding: 40px;
+}
+
 .titulo {
     color: white;
 }
 
 .logo {
-    width: 26px;
+    width: 38px;
+}
+
+.email {
+    color: black;
+}
+
+.navbar {
+    color: white;
 }
